@@ -4,6 +4,8 @@
 #include <QDialog>
 #include <QMessageBox>
 #include <QDebug>
+#include <qstring.h>
+#include "alarmClock.hpp"
 
 namespace Ui {
 class AlarmDia;
@@ -26,6 +28,9 @@ private:
     Ui::AlarmDia *ui;
     int spinboxvalue;
     int spinboxvalue2;
+    QString alarmName;
+    //alarmClock newAlarm1;
+    //std::vector<alarmClock> alarmList;
 };
 
 #endif // ALARMDIA_H

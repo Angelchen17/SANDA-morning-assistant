@@ -7,6 +7,7 @@
 #include "caldia.h"
 #include "weathdia.h"
 #include "instrucdia.h"
+#include "newsdia.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class SANDA; }
@@ -27,6 +28,8 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_5_clicked();
+
     void on_pushButton_6_clicked();
 
 private:
@@ -35,5 +38,6 @@ private:
     CalDia *calendia;
     WeathDia *weathdia;
     InstrucDia *insdia;
+    NewsDia *newsdia;
 };
 #endif // SANDA_H

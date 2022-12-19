@@ -17,24 +17,34 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>30</y>
-     <width>256</width>
-     <height>192</height>
+     <y>50</y>
+     <width>561</width>
+     <height>151</height>
     </rect>
    </property>
    <item>
     <property name="text">
-     <string>Instructions:</string>
+     <string>Welcome to SANDA!</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string>- SANDA</string>
+     <string>To use the Alarm, click on a alarm and set an alarm.</string>
     </property>
    </item>
    <item>
     <property name="text">
-     <string/>
+     <string>To use the calendar function, click on calendar and add/view/modify events.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>To view news, click on news and select the number of news you want to view.</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>To view weather, click on weather and enter a city (eg Toronto).</string>
     </property>
    </item>
   </widget>
